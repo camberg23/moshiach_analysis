@@ -1,0 +1,9 @@
+requests
+streamlit
+pandas
+openai==1.58.1
+reportlab
+Pillow
+Markdown
+beautifulsoup4
+cryptography
