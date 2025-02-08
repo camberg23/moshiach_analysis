@@ -58,7 +58,7 @@ with tab1:
         4. You can also download the final summary and any generated plots as a PDF.
 
         Under the hood, the system reads from an AI-optimized version of the original data, then uses an LLM-based approach to either
-        perform numeric (quantitative) or text (qualitative) analysis, returning a concise final summary in simple English.
+        perform numeric (quantitative) or text (qualitative) analysis, returning a clear and concise final response.
         """
     )
 
