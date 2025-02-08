@@ -144,7 +144,7 @@ if "agent2_combined_outputs" not in st.session_state:
 if "user_query_for_agent3" not in st.session_state:
     st.session_state["user_query_for_agent3"] = ""
 if "next_prompt_type" not in st.session_state:
-    st.session_state["next_prompt_type"] = "Ask Agent #1 about this dataset..."
+    st.session_state["next_prompt_type"] = "Ask any question about this dataset..."
 if "agent2_thread_id" not in st.session_state:
     st.session_state["agent2_thread_id"] = None
 if "agent2_image_file_ids" not in st.session_state:
