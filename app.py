@@ -26,8 +26,10 @@ from bs4 import BeautifulSoup
 
 from prompts import dataset_context
 
-st.set_page_config(page_title="Moshiach.ai")
-
+st.set_page_config(
+    page_title="Moshiach.ai",
+    page_icon="chabad_logo.png"
+)
 
 ###############################################################################
 # GLOBAL SETTINGS
