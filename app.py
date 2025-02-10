@@ -52,18 +52,20 @@ tab1, tab2 = st.tabs(["AI Analyst", "Proposal Evaluator"])
 with tab1:
     st.title("Moshiach.ai [v0]")
     st.subheader("AI-Powered Interactive Data Analyst")
-    st.write(
-        """
-        **How to Use**:
-        1. Enter your question or prompt in the text box below (e.g., "Which five factors best predict interest in The Alef?"). **The more precise and clear the question, the better!**
-        2. Click **Submit Query**. The system will process your request and generate results.
-        3. If you'd like to refine or ask a follow-up, click "Follow Up Question". Otherwise, start anew with "New Question". **Note: if the first output is not perfect, just ask a follow up!**
-        4. You can then download the final summary and any generated plots as a PDF (bottom right button). **Important: system outputs are NOT saved! To save any results, download the PDF, or copy the desired text into a document.**
-
-        Under the hood, the system reads from an AI-optimized version of the original data, then uses an LLM-based approach to either
-        perform numeric (quantitative) or text (qualitative) analysis, returning a clear and concise final response.
-        """
-    )
+    with st.expander("How to Use", expanded=True):
+        st.write(
+            """
+            1. **Enter your question** in the box below (for example, *"Which five factors best predict interest in The Alef?"*).
+               - The more specific and clear your question, the better the results!
+            2. **Click "Submit Query"**. The system will process your request and generate a response.
+            3. **If the first response isn’t ideal**, simply ask a follow-up question using "Follow Up Question," or start over with "New Question."
+               - Don’t worry if it’s not perfect on the first try—just refine your prompt!
+            4. **Download** your final summary and any generated plots as a PDF (see the button on the bottom right).
+               - **Important**: The system does NOT store your responses or queries. If you want to keep the results, either download the PDF or copy the text you need into a document.
+            
+            *Under the hood, this tool uses an AI-optimized version of the original data and selects the best method (numeric or text analysis) to produce a concise final answer.* 
+            """
+        )
 
 ###############################################################################
 # 1B) TAB #2 - PROPOSAL EVALUATOR
