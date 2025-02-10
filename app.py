@@ -59,7 +59,7 @@ with tab1:
                - The more specific and clear your question, the better the results!
             2. **Click "Submit Query"**. The system will process your request and generate a response.
             3. **If the first response isn’t ideal**, simply ask a follow-up question using "Follow Up Question," or start over with "New Question."
-               - Don’t worry if it’s not perfect on the first try—just refine your prompt!
+               - Don’t worry if it’s not perfect on the first try—just click "Follow Up Question" and explain what missed the mark.
             4. **Download** your final summary and any generated plots as a PDF (see the button on the bottom right).
                - **Important**: The system does NOT store your responses or queries. If you want to keep the results, either download the PDF or copy the text you need into a document.
             
