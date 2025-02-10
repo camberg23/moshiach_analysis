@@ -58,7 +58,7 @@ with tab1:
         1. Enter your question or prompt in the text box below (e.g., "Which five factors best predict interest in The Alef?"). **The more precise and clear the question, the better!**
         2. Click **Submit Query**. The system will process your request and generate results.
         3. If you'd like to refine or ask a follow-up, click "Follow Up Question". Otherwise, start anew with "New Question". **Note: if the first output is not perfect, just ask a follow up!**
-        4. You can also download the final summary and any generated plots as a PDF.
+        4. You can then download the final summary and any generated plots as a PDF (bottom right button). **Important: system outputs are NOT saved! To save any results, download the PDF, or copy the desired text into a document.**
 
         Under the hood, the system reads from an AI-optimized version of the original data, then uses an LLM-based approach to either
         perform numeric (quantitative) or text (qualitative) analysis, returning a clear and concise final response.
