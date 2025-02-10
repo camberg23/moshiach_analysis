@@ -50,7 +50,7 @@ tab1, tab2 = st.tabs(["AI Analyst", "Proposal Evaluator"])
 # 1A) APP INTRO (UNDER TAB #1)
 ###############################################################################
 with tab1:
-    st.title("Moshiach.ai")
+    st.title("Moshiach.ai [v0]")
     st.subheader("AI-Powered Interactive Data Analyst")
     st.write(
         """
