@@ -63,7 +63,7 @@ with tab1:
             4. **Download** your final summary and any generated plots as a PDF (see the button on the bottom right).
                - **Important**: The system does NOT store your responses or queries. If you want to keep the results, either download the PDF or copy the text you need into a document.
             
-            *Under the hood, this tool uses an AI-optimized version of the original data and selects the best method (numeric or text analysis) to produce a concise final answer.* 
+            *Under the hood, this tool uses an AI-optimized version of the original data and selects the best method (numeric or text analysis) to produce a concise final answer. Every query invokes three discrete AI agents that go to work providing the best answer possible.* 
             """
         )
 
