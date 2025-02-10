@@ -54,7 +54,7 @@ tab1, tab2 = st.tabs(["AI Analyst", "Proposal Evaluator"])
 with tab1:
     st.title("Moshiach.ai [v0]")
     st.subheader("AI-Powered Interactive Data Analyst")
-    with st.expander("How to Use", expanded=True):
+    with st.expander("**How to Use**", expanded=True):
         st.write(
             """
             1. **Enter your question** in the box below (for example, *"Which five factors best predict interest in The Alef?"*).
