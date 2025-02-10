@@ -71,7 +71,7 @@ with tab1:
 # 1B) TAB #2 - PROPOSAL EVALUATOR
 ###############################################################################
 with tab2:
-    st.write("TODO (Proposal Evaluator will be implemented here).")
+    st.write("Proposal Evaluator will be implemented here.")
 
 ###############################################################################
 # 2) SETUP & FILE UPLOAD
