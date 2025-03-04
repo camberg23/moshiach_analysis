@@ -225,7 +225,7 @@ def run_agent_1(user_query: str) -> str:
                 "from openai import OpenAI\n"
                 f"client = OpenAI(api_key='{API_KEY}')\n\n"
                 "completion = client.chat.completions.create(\n"
-                '  model="o3-mini-2025-01-31",\n'
+                '  model="o1-2024-12-17",\n'
                 "  messages=[\n"
                 '    {"role": "developer", "content": "You are a helpful assistant."},\n'
                 '    {"role": "user", "content": "..."}\n'
@@ -248,7 +248,7 @@ def run_agent_1(user_query: str) -> str:
             )
 
             c = client.chat.completions.create(
-                model="o3-mini-2025-01-31",
+                model="o1-2024-12-17",
                 reasoning_effort="high",
                 messages=[
                     {"role": "developer", "content": instructions_for_agent1},
@@ -346,7 +346,7 @@ def run_local_llm_on_text(column_name: str, prompt: str) -> str:
             )
 
             completion = client.chat.completions.create(
-                model="o3-mini-2025-01-31",
+                model="o1-2024-12-17",
                 messages=[
                     {"role":"developer","content":"You are a helpful assistant that includes direct quotes if possible."},
                     {"role":"user","content":local_prompt}
@@ -375,7 +375,7 @@ def run_agent_3_quant(user_q: str, plan_text: str, analysis_out: str) -> str:
             )
 
             c = client.chat.completions.create(
-                model="o3-mini-2025-01-31",
+                model="o1-2024-12-17",
                 reasoning_effort="high",
                 messages=[
                     {
@@ -404,7 +404,7 @@ def run_agent_3_qual(user_q: str, plan_text: str, analysis_out: str) -> str:
             )
 
             c = client.chat.completions.create(
-                model="o3-mini-2025-01-31",
+                model="o1-2024-12-17",
                 reasoning_effort="high",
                 messages=[
                     {
